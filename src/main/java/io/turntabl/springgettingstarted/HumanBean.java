@@ -4,6 +4,16 @@ public class HumanBean {
     public String fname;
     public String lname;
 
+    public HumanBean getBestFriend() {
+        return bestFriend;
+    }
+
+    public void setBestFriend(HumanBean bestFriend) {
+        this.bestFriend = bestFriend;
+    }
+
+    public HumanBean bestFriend;
+
     public HumanBean(){}
 
     public String getFName(){return this.fname;}

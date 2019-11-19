@@ -12,7 +12,7 @@ public class SpringGettingStartedApplication {
 
 		System.out.println(person.fname);
 
-		BestFriend bestie = (BestFriend)ac.getBean("bestFriend");
+		HumanBean bestie = (HumanBean) ac.getBean("bestFriend");
 		System.out.println(bestie.fname);
 	}
 

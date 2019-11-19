@@ -6,13 +6,14 @@
  <bean id="humanBean" class="io.turntabl.springgettingstarted.HumanBean">
      <property name="FName" value="alex"/>
      <property name="LName" value="owusu"/>
+     <property name="bestFriend" ref="bestFriend"/>
  </bean>
 
 
 
-    <bean id="bestFriend" class="io.turntabl.springgettingstarted.BestFriend">
-        <property name="fname" value="shadrack"/>
-        <property name="lname" value="ankomahene"/>
+    <bean id="bestFriend" class="io.turntabl.springgettingstarted.HumanBean">
+        <property name="FName" value="shadrack"/>
+        <property name="LName" value="ankomahene"/>
     </bean>
 
 
